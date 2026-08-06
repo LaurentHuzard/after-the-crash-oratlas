@@ -1,0 +1,72 @@
+{
+  "schemaVersion": "0.1.0",
+  "reviewVersion": "0.1.0",
+  "generatedAt": "2026-08-06T17:30:00Z",
+  "cutoffDate": "2026-08-06",
+  "title": "After the Crash: Acute and Protracted Withdrawal Across Amphetamine-Type Stimulants Beyond Methamphetamine",
+  "status": "pilot-human-review-pending",
+  "humanDirection": {
+    "contributor": "Laurent Huzard",
+    "contributions": [
+      "Selected the research domain",
+      "Required inclusion of amphetamines beyond methamphetamine",
+      "Authorized creation of the ORAtlas pilot"
+    ]
+  },
+  "aiAssistance": {
+    "system": "OpenAI GPT-5.6 Pro",
+    "contributions": [
+      "Targeted literature discovery",
+      "Metadata cross-checking",
+      "Claim drafting",
+      "Evidence relation mapping",
+      "Agent-proposed TRUST assessments",
+      "Repository scaffolding"
+    ],
+    "limitations": [
+      "No independent full-text verification for every paywalled source",
+      "No duplicate human screening",
+      "No meta-analysis",
+      "No individual participant data",
+      "No clinical adjudication"
+    ]
+  },
+  "search": {
+    "mode": "targeted rapid evidence mapping",
+    "sources": [
+      "PubMed",
+      "PubMed Central",
+      "Cochrane",
+      "ASAM/AAAP",
+      "British Association for Psychopharmacology",
+      "publisher pages",
+      "backward citation chasing"
+    ],
+    "notSystematic": true,
+    "protocol": "protocol/review-protocol.md",
+    "strategy": "protocol/search-strategy.md"
+  },
+  "artifacts": {
+    "claims": {
+      "path": "knowledge/claims.jsonl",
+      "count": 12
+    },
+    "citations": {
+      "path": "knowledge/citations.jsonl",
+      "count": 22
+    },
+    "relations": {
+      "path": "knowledge/claim-evidence-relations.jsonl",
+      "count": 77
+    },
+    "trustAssessments": {
+      "path": "knowledge/trust-assessments.jsonl",
+      "count": 77
+    },
+    "evidenceTable": {
+      "path": "evidence/evidence-table.csv",
+      "rows": 22
+    }
+  },
+  "safety": "This repository is a research artifact. It is not medical advice, a diagnostic tool, or a treatment recommendation."
+}

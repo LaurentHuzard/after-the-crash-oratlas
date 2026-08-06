@@ -1,0 +1,11 @@
+{
+  "name": "after-the-crash-oratlas",
+  "version": "0.1.0",
+  "private": true,
+  "description": "ORAtlas pilot evidence map for amphetamine and methamphetamine withdrawal.",
+  "scripts": {
+    "validate": "python3 scripts/validate_repository.py",
+    "build": "myst build --html",
+    "start": "myst start"
+  }
+}

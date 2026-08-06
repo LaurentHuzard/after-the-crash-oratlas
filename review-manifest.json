@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "1.0.0",
+  "review": {
+    "title": "After the Crash: Acute and Protracted Withdrawal Across Amphetamine-Type Stimulants Beyond Methamphetamine",
+    "abstract": "A substance-specific pilot evidence map of acute withdrawal, post-acute symptoms, treatment evidence, measurement validity, psychiatric overlap, and functional recovery after sustained amphetamine or methamphetamine exposure. The review explicitly labels direct amphetamine evidence, direct methamphetamine evidence, pooled amphetamine-type stimulant evidence, and extrapolation. It is an AI-assisted pilot awaiting human scientific review, not a clinical guideline or individualized medical advice.",
+    "reviewType": "computational-literature-review",
+    "language": "en",
+    "keywords": [
+      "amphetamine",
+      "methamphetamine",
+      "stimulant withdrawal",
+      "protracted withdrawal",
+      "functional recovery",
+      "addiction",
+      "evidence mapping"
+    ],
+    "domains": [
+      "addiction medicine",
+      "psychiatry",
+      "clinical pharmacology",
+      "evidence synthesis"
+    ],
+    "license": "CC-BY-4.0"
+  },
+  "repository": {
+    "url": "https://github.com/LaurentHuzard/after-the-crash-oratlas",
+    "releaseTag": "v0.1.0"
+  },
+  "contact": {
+    "name": "Laurent Huzard",
+    "url": "https://github.com/LaurentHuzard"
+  },
+  "contributors": [
+    {
+      "displayName": "Laurent Huzard",
+      "givenName": "Laurent",
+      "familyName": "Huzard",
+      "githubLogin": "LaurentHuzard",
+      "roles": [
+        "Conceptualization",
+        "Scope definition",
+        "Project administration",
+        "Human review pending"
+      ]
+    },
+    {
+      "displayName": "OpenAI GPT-5.6 Pro",
+      "roles": [
+        "Targeted literature discovery",
+        "Evidence mapping",
+        "Drafting",
+        "Machine-readable artifact generation"
+      ]
+    }
+  ],
+  "artifacts": {
+    "claims": "knowledge/claims.jsonl",
+    "citations": "knowledge/citations.jsonl",
+    "relations": "knowledge/claim-evidence-relations.jsonl",
+    "trustAssessments": "knowledge/trust-assessments.jsonl",
+    "provenance": "provenance.json"
+  }
+}

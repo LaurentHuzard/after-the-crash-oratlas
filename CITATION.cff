@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Please cite this release if you reuse the evidence map."
+title: "After the Crash: Acute and Protracted Withdrawal Across Amphetamine-Type Stimulants Beyond Methamphetamine"
+type: dataset
+authors:
+  - family-names: Huzard
+    given-names: Laurent
+    alias: LaurentHuzard
+version: 0.1.0
+date-released: 2026-08-06
+repository-code: "https://github.com/LaurentHuzard/after-the-crash-oratlas"
+url: "https://github.com/LaurentHuzard/after-the-crash-oratlas"
+license: CC-BY-4.0
+abstract: >-
+  Substance-specific pilot evidence map of acute and post-acute withdrawal,
+  treatment evidence, measurement, psychiatric overlap, and functional recovery
+  after amphetamine or methamphetamine exposure.
+keywords:
+  - amphetamine
+  - methamphetamine
+  - stimulant withdrawal
+  - addiction
+  - evidence map

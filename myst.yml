@@ -1,0 +1,34 @@
+version: 1
+project:
+  title: "After the Crash"
+  subtitle: "Acute and Protracted Withdrawal Across Amphetamine-Type Stimulants Beyond Methamphetamine"
+  description: >-
+    A substance-specific ORAtlas pilot evidence map of stimulant withdrawal and recovery.
+  keywords:
+    - amphetamine
+    - methamphetamine
+    - stimulant withdrawal
+    - protracted withdrawal
+    - functional recovery
+    - addiction medicine
+  license: CC-BY-4.0
+  open_access: true
+  github: https://github.com/LaurentHuzard/after-the-crash-oratlas
+  bibliography:
+    - content/references.bib
+  toc:
+    - file: content/index.md
+    - file: content/01_scope.md
+    - file: content/02_withdrawal_trajectory.md
+    - file: content/03_interventions.md
+    - file: content/04_measurement_and_comorbidity.md
+    - file: content/05_evidence_gaps.md
+    - file: content/methods.md
+    - file: content/evidence_map.md
+    - file: content/provenance.md
+site:
+  template: book-theme
+  title: "After the Crash"
+  nav:
+    - title: GitHub
+      url: https://github.com/LaurentHuzard/after-the-crash-oratlas
